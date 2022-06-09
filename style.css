@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+    --button: #FF0000;
+    --main-background:  #C4C4C4;
+    --background: #E5E5E5;
+    --text: #000;
+    --footer: #000;
+    --text-description: #9C9696;
+  }
+
+  body{background-color: #f7f4f4;
+    font-family:'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+     
+  }
+  header{
+    
+    background-color: white;
+   
+    height: 48px;
+    display: flex;
+  text-align: center;
+    padding: 10px;
+    justify-content:space-between;
+   
+    
+
+  }
+  
+  a{margin:0px 5px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+   
+
+  }
+  button#pesquisa{
+    background-color:white;
+    border-radius: 20px;
+    font-family:'Roboto', sans-serif;
+    color:#C4C4C4;
+ height: 40px;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+ align-items: center;
+   
+  }
+  main{padding: 20px;
+    width: 95%;
+  margin: 10px 0px 10px 10px;
+    display: flex;
+    justify-content:space-between;
+  }
+  #text > h1,h3{
+    font-weight: 700;
+    font-size: 50px;
+  
+  }
+  h1{
+    background-color: #000;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  #container{
+  
+   height: 100%;
+ 
+  text-align: center;
+   
+  padding: 4px;
+
+   }
+  #img1{background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.356);
+    margin: auto;
+     width:80% ;
+     height: 50%;
+     margin-top: 5%;
+    
+  }
+  .imgs{display:flex;
+   
+    padding:10px 0px;
+    width: 100%;
+   border-radius: 4px;
+  }
+  img{
+    box-shadow: 1px 1px 1px rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  button#btn{
+    width: 274px;
+    height: 90px;
+    background-color: #FF0000;
+    font-weight: 700;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-family:'Roboto', sans-serif;
+  }
+  footer{
+   margin-top: 20%;
+    background-color:white;
+    display: flex;
+    height: 237px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+  }
+  .explore{display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 237px;
+    width: 166px;
+    color: white;
+  }
+
+  
